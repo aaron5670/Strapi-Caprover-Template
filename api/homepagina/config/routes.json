@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/homepagina",
+      "handler": "homepagina.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/homepagina",
+      "handler": "homepagina.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/homepagina",
+      "handler": "homepagina.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

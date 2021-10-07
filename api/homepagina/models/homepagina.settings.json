@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage",
+  "info": {
+    "name": "Homepagina",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
